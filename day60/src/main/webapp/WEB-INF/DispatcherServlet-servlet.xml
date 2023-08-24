@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+   
+  <context:component-scan base-package="com.spring.view.controller" />
+   
+</beans>
+   
+	
+	<!-- ViewResolver -->
+	<!-- 현업에서 신입한테 많이 물어보는 질문 및 과제 -->
+	<!-- 'Resolver' 류는 항상 id를 필요로 하고 정해진 이름으로 넣어야 한다. 또한 객체이기 때문에 소문자로 시작한다. -->
+	<!-- 왜 폴더 안에 넣느냐 왜 누구는 밖에 있고 누구는 안에 있냐 -->
+	<!-- <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+	</bean> -->
